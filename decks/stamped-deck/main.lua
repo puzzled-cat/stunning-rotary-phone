@@ -1,8 +1,6 @@
 -- Stamped Deck: every playing card starts with a random seal
 local L = SMODS
 
--- Register a single-tile atlas. Since your 1x image is 71x95 and 2x is 142x190,
--- px/py = 71/95 means the sheet has exactly ONE cell at (x=0,y=0).
 SMODS.Atlas{
   key  = "sd_front_atlas",
   path = "stamped-deck/sprites/stamped-front.png",
@@ -17,11 +15,10 @@ local deck = L.Back({
     text = { "All playing cards start", "with a random {C:attention}Seal{}." }
   },
 
-  -- Some UIs read these:
   atlas = "sd_front_atlas",
   pos   = { x = 0, y = 0 },
 
-  -- And the card face uses this:
+  -- card face
   front = { atlas = "sd_front_atlas", pos = { x = 0, y = 0 } }
 })
 
