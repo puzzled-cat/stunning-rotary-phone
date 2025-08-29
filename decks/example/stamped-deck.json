@@ -1,0 +1,11 @@
+{
+    "id": "stamped_deck",
+    "name": "Stamped Deck",
+    "author": [
+        "puzzled-cat"
+    ],
+    "description": "Each playing card begins the run with a random seal (Red/Blue/Gold/Purple).",
+    "prefix": "rsd",
+    "version": "1.0.0",
+    "main_file": "main.lua"
+}
