@@ -30,3 +30,5 @@ A collection of lightweight mods for [Balatro](https://store.steampowered.com/ap
   - Each mod has a valid `*.json` manifest with `"main_file": "main.lua"`.  
 
 ---
+
+**STAMPED DECK:** Each card has a random seal applied. 
